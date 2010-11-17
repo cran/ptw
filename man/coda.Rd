@@ -21,10 +21,8 @@
   data-set dependent.
 }
 \references{
-  Windig, W., Phalp, J., Payna, A.
-  A noise and background reduction method for component detection in
-  liquid chromatography/mass spectrometry.
-  Anal. Chem., 1996, 68, 3602-3606
+  Windig, W., Phalp, J., Payna, A. (1996) "A noise and background reduction method for component detection in liquid chromatography/mass spectrometry",
+Analytical Chemistry, \bold{68}, 3602 -- 3606.
 }
 \examples{
 data(gaschrom)

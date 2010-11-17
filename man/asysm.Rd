@@ -23,13 +23,9 @@
   the smoother the trendline will be.
 }
 \references{Eilers, P.H.C.
-  Parametric Time Warping.
-  Anal. Chem., 2004, 76, 404 - 411
-
-  Boelens, H.F.M., Eilers, P.H.C., Hankemeier, T.
-  Sign constraints improve the detection of differences between complex
-  spectral data sets: LC-IR as an example.
-  Anal. Chem., 2005, 77, 7998-8007.
+  Eilers, P.H.C. (2004) "Parametric Time Warping", Analytical Chemistry, \bold{76} (2), 404 -- 411.
+  
+  Boelens, H.F.M., Eilers, P.H.C., Hankemeier, T. (2005) "Sign constraints improve the detection of differences between complex spectral data sets: LC-IR as an example", Analytical Chemistry, \bold{77}, 7998 -- 8007.
 } 
 \author{Paul Eilers, Jan Gerretzen}
 \examples{

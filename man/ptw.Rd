@@ -115,7 +115,9 @@ pmwarp(ref, samp, optim.crit, init.coef, try = FALSE,
   \code{\link{WCC}}, \code{\link{RMS}}, \code{\link{select.traces}}
 }
 \references{
-  Eilers, P.H.C. Parametric Time Warping. Anal. Chem., 2004, 76, 404 - 411
+  Eilers, P.H.C. (2004) "Parametric Time Warping", Analytical Chemistry, \bold{76} (2), 404 -- 411.
+  
+  Bloemberg, T.G., et al. (2010) "Improved parametric time warping for Proteomics", Chemometrics and Intelligent Laboratory Systems, \bold{104} (1), 65 -- 74.
 }
 \examples{
 data(gaschrom)

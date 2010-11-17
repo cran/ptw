@@ -30,7 +30,9 @@ the total warping function can be calculated via \code{calc.multicoef(a,
 \seealso{
   \code{\link{calc.zerocoef}}
 }
-
+\references{
+  Bloemberg, T.G., et al. (2010) "Improved parametric time warping for Proteomics", Chemometrics and Intelligent Laboratory Systems, \bold{104} (1), 65 -- 74.
+}
 \examples{
 data(gaschrom)
 ref <- gaschrom[1,]

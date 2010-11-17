@@ -17,7 +17,9 @@ calc.zerocoef(coef, zeros)}
   \code{\link{padzeros}}
   \code{\link{calc.multicoef}}
   }
-  
+\references{
+  Bloemberg, T.G., et al. (2010) "Improved parametric time warping for Proteomics", Chemometrics and Intelligent Laboratory Systems, \bold{104} (1), 65 -- 74.
+}  
 \examples{
 data(gaschrom)
 gaschrom.zf <- padzeros(gaschrom, 250)

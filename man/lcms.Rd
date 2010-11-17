@@ -13,6 +13,6 @@ data(lcms)
 \source{Nijmegen Proteomics Facility, Department of Laboratory Medicine, Radboud University Nijmegen Medical Centre
 }
 \references{
-  Bloemberg, T.G. et al. Improved Parametric Time Warping for Proteomics
+  Bloemberg, T.G., et al. (2010) "Improved parametric time warping for Proteomics", Chemometrics and Intelligent Laboratory Systems, \bold{104} (1), 65 -- 74.
 }
 \keyword{datasets}

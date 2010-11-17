@@ -18,8 +18,8 @@ baseline.corr(y, lambda = 1e7, p = 0.001)
   \item{ycorr}{baseline corrected signal(s): a vector or a matrix of the
     same dimension as the input signal(s)}
 }
-\references{Eilers, P.H.C. Parametric Time Warping.
-  Anal. Chem., 2004, 76, 404 - 411
+\references{
+  Eilers, P.H.C. (2004) "Parametric Time Warping", Analytical Chemistry, \bold{76} (2), 404 -- 411.
 }
 \author{Paul Eilers, Jan Gerretzen}
 \examples{

@@ -45,14 +45,9 @@ One number - either the WCC or RMS value
 }
 \seealso{\code{\link{wcc}}}
 \references{
-  Eilers, P.H.C.
-  Parametric Time Warping.
-  Anal. Chem., 2004, 76, 404 - 411
+  Eilers, P.H.C. (2004) "Parametric Time Warping", Analytical Chemistry, \bold{76} (2), 404 -- 411.
 
-  de Gelder, R., Wehrens, R. and Hageman, J.A.
-  A generalized expression for the similarity of spectra: Application to
-  powder diffraction pattern classification.
-  J. Comp. Chem., 2001, 22, 273 - 289
+  de Gelder, R., Wehrens, R. and Hageman, J.A. (2001) "A generalized expression for the similarity of spectra: Application to powder diffraction pattern classification",  Journal of Computational Chemistry, \bold{22}, 273 -- 289.
 }
 \author{Jan Gerretzen, Tom Bloemberg, Ron Wehrens}
 \keyword{manip}

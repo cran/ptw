@@ -11,6 +11,6 @@ data(gaschrom)
 }
 \source{Claire Boucon, Unilever}
 \references{
-  Eilers, P.H.C. Parametric Time Warping. Anal. Chem., 2004, 76, 404 - 411
+  Eilers, P.H.C. (2004) "Parametric Time Warping", Analytical Chemistry, \bold{76} (2), 404 -- 411.
 }
 \keyword{datasets}

@@ -31,10 +31,7 @@ wac (pattern1, trwdth, wghts = NULL)
 }
 \value{One number, the weighted autocorrelation or crosscorrelation}
 \references{
-de Gelder, R., Wehrens, R. and Hageman, J.A.  A generalized
-expression for the similarity spectra: application to powder
-diffraction pattern classification.  J. Comput. Chem., 22(3),
-273-289, 2001.
+  de Gelder, R., Wehrens, R. and Hageman, J.A. (2001) "A generalized expression for the similarity of spectra: Application to powder diffraction pattern classification",  Journal of Computational Chemistry, \bold{22}, 273 -- 289.
 }
 \author{Ron Wehrens}
 \examples{

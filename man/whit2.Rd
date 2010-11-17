@@ -1,16 +1,17 @@
-\name{difsm}
-\alias{difsm}
-\title{Smoothing with a finite difference penalty}
+\name{whit2}
+\alias{whit2}
+\title{Weighted Whittaker smoothing with a second order finite difference penalty}
 \description{
   This function smoothes signals with a finite difference penalty of
   order 2.
 }
 \usage{
-difsm(y, lambda)
+whit2(y, lambda, w)
 }
 \arguments{
   \item{y}{signal to be smoothed: a vector}
-  \item{lambda}{smoothing parameter: larger values lead to smoothing}
+  \item{lambda}{smoothing parameter: larger values lead to more smoothing}
+  \item{w}{weights: a vector of same length as y. Default weights are equal to one}
 }
 \value{smoothed signal: a vector}
 \references{
@@ -22,8 +23,8 @@ difsm(y, lambda)
 \examples{
   data(gaschrom)
   plot(gaschrom[1,], type = "l", ylim = c(0, 100))
-  lines(difsm(gaschrom[1,], lambda = 1e5), col = 2)
-  lines(difsm(gaschrom[1,], lambda = 1e6), col = 3)
-  lines(difsm(gaschrom[1,], lambda = 1e7), col = 4)
+  lines(whit2(gaschrom[1,], lambda = 1e5), col = 2)
+  lines(whit2(gaschrom[1,], lambda = 1e6), col = 3)
+  lines(whit2(gaschrom[1,], lambda = 1e7), col = 4)
   }
 \keyword{manip}
