@@ -61,4 +61,3 @@ void smooth2(double *w, double *y, double *z, double *lamb, int *mm,
   for (i = m - 2; 0<= i; i--)
      z[i] = z[i] / d[i] - c[i] * z[i + 1] - e[i] * z[i + 2];
 }
-

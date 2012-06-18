@@ -20,7 +20,7 @@ select.traces <- function(X,
            var = {
              XX <- sweep(X, 1, apply(X, 1, function(x) sqrt(sum(x^2))),
                          FUN = "/")
-             crit.val <- sd(t(XX))
+             crit.val <- apply(t(XX), 2, sd)
            },
            int = {
              crit.val <- apply(X, 1, max) / max(X)
