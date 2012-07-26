@@ -1,15 +1,13 @@
 Package: ptw
 Type: Package
 Title: Parametric Time Warping
-Version: 1.0-2
-Date: 2012-06-18
+Version: 1.0-3
+Date: 2012-07-26
 Author: Jan Gerretzen <j.gerretzen@science.ru.nl>, Paul Eilers
-        <p.eilers@erasmusmc.nl>, Hans Wouters
-        <h.wouters@science.ru.nl>, Tom Bloemberg
+        <p.eilers@erasmusmc.nl>, Hans Wouters, Tom Bloemberg
         <t.bloemberg@science.ru.nl> and Ron Wehrens
-        <r.wehrens@science.ru.nl>
-Maintainer: Tom Bloemberg <t.bloemberg@science.ru.nl>, Ron Wehrens
-        <r.wehrens@science.ru.nl>
+        <ron.wehrens@fmach.it>
+Maintainer: Tom Bloemberg <t.bloemberg@science.ru.nl>
 Description: Parametric Time Warping aligns patterns, i.e. it aims to
         put corresponding features at the same locations. The algorithm
         searches for an optimal polynomial describing the warping. It
@@ -22,5 +20,5 @@ Description: Parametric Time Warping aligns patterns, i.e. it aims to
 License: GPL (>= 2)
 LazyLoad: yes
 Repository: CRAN
-Date/Publication: 2012-06-19 11:42:25
-Packaged: 2012-06-19 08:07:46 UTC; tombloem
+Date/Publication: 2012-07-26 14:06:57
+Packaged: 2012-07-26 09:48:12 UTC; tombloem
