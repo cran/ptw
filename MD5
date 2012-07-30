@@ -1,4 +1,5 @@
-e6528540c9cfac795ba9ef02efe90e30 *DESCRIPTION
+1e6fd7d1c1584ebc77b6c2e16e834969 *COPYRIGHT.approx
+ba68e3d36e4480cb4aaf11ee4e77a4a4 *DESCRIPTION
 0562e5c11a9044162434bfd115ce1ad1 *NAMESPACE
 0be1092de4d8d1e525f89fd3fec31d8b *R/RMS.R
 9809bb6437f9226a34998e99d9f799a0 *R/WCC.R
@@ -9,7 +10,7 @@ dd2dac6fe3d7fc3ce1b0789fdea2b8d9 *R/calc.multicoef.R
 36c2ff335b6eb5f10ee85a443854d7e5 *R/calc.zerocoef.R
 adf974ae2bae40defb64330009539bb0 *R/coda.R
 c7376e67c99cf6f658bf015810445812 *R/difsm.R
-6470b498add9cb89e370903f9fb49389 *R/interpol.R
+25c1bf718c6a527fcbc3ad9716bc2d0a *R/interpol.R
 140b2616175818477c6b2499b8c3ec17 *R/padzeros.R
 618ef6fb509b0afafd843d3e65fc2462 *R/plot.ptw.R
 9d80d6ce0a46eb89d272f803485e889a *R/pmwarp.R
@@ -36,7 +37,7 @@ d257e3c7a02852b904252eec502ba355 *man/bestref.Rd
 261ef93f286e4679b965cc3cd9f2cb97 *man/coda.Rd
 78f0ffc3ba475768ebc4a4c05ca04dd8 *man/difsm.Rd
 0dbb64b6cc462cf3c460042125288c87 *man/gaschrom.Rd
-4bb77840b1d6a29095dbea791eaa52b2 *man/interpol.Rd
+377e57d31e5a779d73d6615f9db52549 *man/interpol.Rd
 1ec3fc770704a42bf69f7ea3b839252d *man/lcms.Rd
 1288559c89cb477c8da48140f09c4e3f *man/padzeros.Rd
 562ca5eb50d2c7c5d22c4483369cc0b3 *man/plot.ptw.Rd
@@ -46,5 +47,6 @@ ce2e16f6d28bcee56299323b7b42fea2 *man/select.traces.Rd
 d196bc934d2044ae54196d9324176e76 *man/wcc.Rd
 bd58b10d956249520da3d155b3284232 *man/whit1.Rd
 64bea68ddb0cde00b1a5e0abfcd0de77 *man/whit2.Rd
+30a941a4947ca9b6a783d3237e6e8509 *src/approx.c
 b110019578a263e81754311fa2335e07 *src/smth.c
 c7dee5861f17cdcd3e2e57ba2d21246f *src/wcc.c
