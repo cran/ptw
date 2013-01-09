@@ -1,5 +1,4 @@
-1e6fd7d1c1584ebc77b6c2e16e834969 *COPYRIGHT.approx
-c3867b49f215ef9e7cc6414cb8a08fd9 *DESCRIPTION
+3a8afe0df88317353b962dc9ff421af6 *DESCRIPTION
 0562e5c11a9044162434bfd115ce1ad1 *NAMESPACE
 0be1092de4d8d1e525f89fd3fec31d8b *R/RMS.R
 9809bb6437f9226a34998e99d9f799a0 *R/WCC.R
@@ -14,6 +13,7 @@ c7376e67c99cf6f658bf015810445812 *R/difsm.R
 140b2616175818477c6b2499b8c3ec17 *R/padzeros.R
 618ef6fb509b0afafd843d3e65fc2462 *R/plot.ptw.R
 9d80d6ce0a46eb89d272f803485e889a *R/pmwarp.R
+d169ae24aeef19c5b0458b179631f187 *R/predict.ptw.R
 5f9860b28643d2e44dfd1070783f5772 *R/ptw.R
 74f33e01007a539a036599760bed5ca3 *R/ptwgrid.R
 aba682a006ad50e3da791a5aa28ab110 *R/select.traces.R
@@ -28,6 +28,7 @@ bdf7c7c2052ebf3c5e74980378dc843d *data/gaschrom.RData
 e4c0ff0dcac8fee5aa5802343675bfdd *demo/demo2.R
 4f0f91910f3a637cfa7b500529df3815 *demo/demo3.R
 089b6ed5d498abc755d74adf6230b15f *inst/CITATION
+1e6fd7d1c1584ebc77b6c2e16e834969 *inst/COPYRIGHT
 bcd4dcd61f66e389983d3e0dba5db2e1 *man/RMS.Rd
 17ef611c2997a48057ab912ab1c8d88a *man/asysm.Rd
 6666199a3652d1227c582495ff81e3c9 *man/baseline.corr.Rd
@@ -41,6 +42,7 @@ d257e3c7a02852b904252eec502ba355 *man/bestref.Rd
 1ec3fc770704a42bf69f7ea3b839252d *man/lcms.Rd
 1288559c89cb477c8da48140f09c4e3f *man/padzeros.Rd
 562ca5eb50d2c7c5d22c4483369cc0b3 *man/plot.ptw.Rd
+a5048e5e6a66df5ab38cedbe82c699e8 *man/predict.ptw.Rd
 95c8919467dd945e31432adf5d065696 *man/ptw.Rd
 234994d0dafc00a09998e0af7b7f7982 *man/ptwgrid.Rd
 ce2e16f6d28bcee56299323b7b42fea2 *man/select.traces.Rd
