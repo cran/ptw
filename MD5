@@ -1,9 +1,9 @@
 1e6fd7d1c1584ebc77b6c2e16e834969 *COPYRIGHT.approx
-ba68e3d36e4480cb4aaf11ee4e77a4a4 *DESCRIPTION
+c3867b49f215ef9e7cc6414cb8a08fd9 *DESCRIPTION
 0562e5c11a9044162434bfd115ce1ad1 *NAMESPACE
 0be1092de4d8d1e525f89fd3fec31d8b *R/RMS.R
 9809bb6437f9226a34998e99d9f799a0 *R/WCC.R
-47db4e2621d9380b89b130d083184c91 *R/asysm.R
+a162018db9338e447390cb6d16bef440 *R/asysm.R
 9c7e462e88f6267a699606c2c813de0c *R/baseline.corr.R
 3d74c59ec4b57203729ba30e326f958c *R/bestref.R
 dd2dac6fe3d7fc3ce1b0789fdea2b8d9 *R/calc.multicoef.R
@@ -29,7 +29,7 @@ e4c0ff0dcac8fee5aa5802343675bfdd *demo/demo2.R
 4f0f91910f3a637cfa7b500529df3815 *demo/demo3.R
 089b6ed5d498abc755d74adf6230b15f *inst/CITATION
 bcd4dcd61f66e389983d3e0dba5db2e1 *man/RMS.Rd
-812d3409417074a7f0b3ad9149812753 *man/asysm.Rd
+17ef611c2997a48057ab912ab1c8d88a *man/asysm.Rd
 6666199a3652d1227c582495ff81e3c9 *man/baseline.corr.Rd
 d257e3c7a02852b904252eec502ba355 *man/bestref.Rd
 5086175c28b331de6eeb4daf6a85be94 *man/calc.multicoef.Rd

@@ -4,12 +4,13 @@
 \description{Estimates a trend based on asymmetric least squares. In
   this case used to estimate the baseline of a given spectrum.}
 \usage{
-  asysm(y, lambda = 1e7, p = 0.001)
+  asysm(y, lambda = 1e+07, p = 0.001, eps = 1e-8)
 }
 \arguments{
   \item{y}{data: either a vector or a data matrix containing spectra as rows}
   \item{lambda}{smoothing parameter (generally 1e5 - 1e8)}
   \item{p}{asymmetry parameter}
+  \item{eps}{numerical precision for convergence}
 }
 \value{An estimated baseline}
 
