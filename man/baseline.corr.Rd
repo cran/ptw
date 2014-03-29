@@ -4,15 +4,12 @@
 \description{This function estimates a baseline using asymmetric least
   squares and subtracts it from the data.} 
 \usage{
-baseline.corr(y, lambda = 1e7, p = 0.001)
+baseline.corr(y, ...)
 }
 \arguments{
   \item{y}{signal(s) to correct. This can be a vector (containing one
-    signal) or a matrix of signals(one signal per row)} 
-  \item{lambda}{smoothing parameter for weighted asymmetric least
-    squares baseline estimation.} 
-  \item{p}{asymmetry parameter for weighted asymmetric least squares
-    baseline estimation} 
+    signal) or a matrix of signals(one signal per row)}
+  \item{\dots}{other arguments to the \code{asysm} function.}
 }
 \value{
   \item{ycorr}{baseline corrected signal(s): a vector or a matrix of the

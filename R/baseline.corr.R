@@ -1,8 +1,8 @@
-baseline.corr <- function(y, lambda = 1e7, p = 0.001)
+baseline.corr <- function(y, ...)
 {
   if (is.vector(y)) {
-    y - asysm(y, lambda, p)
+    y - asysm(y, ...)
   } else {
-    t(apply(y, 1, function(x) x - asysm(x, lambda, p)))
+    t(apply(y, 1, function(x) x - asysm(x, ...)))
   }
 }
