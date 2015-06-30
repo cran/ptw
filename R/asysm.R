@@ -1,16 +1,18 @@
-asysm <- function (y, lambda = 1e+07, p = 0.001, eps = 1e-8) {
-  ny <- length(y)
-  w <- rep(1, ny)
-  z <- d <- c <- e <- rep(0, length(y))
-  R <- TRUE
-  it <- 0
-  while (R) {
-    z <- .C("smooth2", as.double(w), as.double(y), as.double(z),
-            as.double(lambda), as.integer(length(y)), as.double(d),
-            as.double(c), as.double(e), PACKAGE = "ptw")[[3]]
-    w0 <- w
-    w <- p * (y - z > eps) + (1 - p) * (y - z <= eps)
-    R <- sum(abs(w - w0)) > 0
+asysm <- function (y, lambda = 1e+07, p = 0.001, eps = 1e-8, maxit = 25) {
+  z <- 0 * y
+  w <- z + 1
+
+  eps <- max(eps, eps*diff(range(y)))
+  for (it in 1:maxit) {
+    zold <- z
+    z <- whit2(y, lambda, w)
+    w <- p * (y > z) + (1 - p) * (y <= z)
+    dz <- max(abs(z - zold))
+    if (dz < eps) break
   }
-  z
-} 
+
+  if (dz >= eps)
+      warning("Function asysm did not reach convergence")
+
+  return(z)
+}
