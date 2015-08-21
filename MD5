@@ -1,4 +1,4 @@
-f6563cfbe4e2f264d893d19c5ac4e1c1 *DESCRIPTION
+30e3acb92da70461533197238b1674e7 *DESCRIPTION
 f604fe278108447da9ca8eb342b54d14 *NAMESPACE
 8a67dd849cdeb9fdf62139878f20519f *R/RMS.R
 ed162139509908ed5e54a890c70bc65d *R/WCC.R
@@ -22,7 +22,7 @@ b9ee06b22cc521380cb9804e226711c7 *R/summary.ptw.R
 49152349758dfab4627d91825123ab7b *R/whit1.R
 7c1a460662d94f042e3926b68ed564ee *R/whit2.R
 5e355186b75db4535c2ae28c351ca530 *TODO
-06217c10f9024a48c0e3635f548d4ee9 *build/vignette.rds
+9059797576125725f645f94372123c8f *build/vignette.rds
 74c4d2d7e5015f30d129035dcdaad918 *data/datalist
 066b79c9ae31560f2a40a59f51b37aa3 *data/gaschrom.RData
 a7c50bcc57171a0d3af5aa26776e3c2a *data/lcms.RData
@@ -32,8 +32,8 @@ e4c0ff0dcac8fee5aa5802343675bfdd *demo/demo2.R
 4f0f91910f3a637cfa7b500529df3815 *demo/demo3.R
 6cc64e432cf2ac87c7723b2d12c6cda1 *inst/CITATION
 04bb530816b21d067404f8e46894cdab *inst/NEWS
-10b0a2a776dae9e84cfcb005f9f647b2 *inst/doc/stickPTW.Rnw
-41cc880e2a021a6ab26c3623f9305d1e *inst/doc/stickPTW.pdf
+34986c7a997d6b5a1ae46b7a2997791d *inst/doc/stickPTW.Rnw
+75f2dbaae980792d18b8bf6d0478eea2 *inst/doc/stickPTW.pdf
 59a6171e2eb7e045352fd08e5422e199 *man/RMS.Rd
 9ea86cc005d753a79f0179226dbd5268 *man/asysm.Rd
 9d19f155405c0d4c64580b05312c0029 *man/baseline.corr.Rd
@@ -70,4 +70,4 @@ b05521a9edaf398e5686a30dabcd05a6 *vignettes/stickPTW-012.pdf
 91b08c6a82ba401600edeed0d2a34e46 *vignettes/stickPTW-013.pdf
 58234418a5552a17a746b32c6be1d44d *vignettes/stickPTW-019.pdf
 8712970f2c3fe353658b5cfbe9588f26 *vignettes/stickPTW-025.pdf
-10b0a2a776dae9e84cfcb005f9f647b2 *vignettes/stickPTW.Rnw
+34986c7a997d6b5a1ae46b7a2997791d *vignettes/stickPTW.Rnw
