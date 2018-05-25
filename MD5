@@ -1,4 +1,4 @@
-f6eab55bbd68c002c204557ad1f0ae4a *DESCRIPTION
+b080e0f7cf212fb5fd42cafa38d161eb *DESCRIPTION
 14dfcd07409748d2e05032705355c7d0 *NAMESPACE
 8a67dd849cdeb9fdf62139878f20519f *R/RMS.R
 ed162139509908ed5e54a890c70bc65d *R/WCC.R
@@ -12,7 +12,7 @@ c7376e67c99cf6f658bf015810445812 *R/difsm.R
 140b2616175818477c6b2499b8c3ec17 *R/padzeros.R
 81df44c6cd7b323d6edda881a2f0b056 *R/plot.ptw.R
 5297b9b4c8814084de127bffa904dd26 *R/pmwarp.R
-e866bce74c1f91a834087387efff21ab *R/predict.ptw.R
+6820acd5a469998258cc1cea30965a38 *R/predict.ptw.R
 05c19e0c55bcaf58a2802ca66971a63d *R/ptw.R
 74f33e01007a539a036599760bed5ca3 *R/ptwgrid.R
 aba682a006ad50e3da791a5aa28ab110 *R/select.traces.R
@@ -21,8 +21,8 @@ b9ee06b22cc521380cb9804e226711c7 *R/summary.ptw.R
 9be9a7c68e3d5b205aba57eaa0240e79 *R/wccStick.R
 49152349758dfab4627d91825123ab7b *R/whit1.R
 7c1a460662d94f042e3926b68ed564ee *R/whit2.R
-5e355186b75db4535c2ae28c351ca530 *TODO
-11311d6861a92d444833862d732dbf70 *build/vignette.rds
+92a38c074450e91e36871d65f4c0ed1d *TODO
+8e2974758d551d2d8ea417ca6a4f6a61 *build/vignette.rds
 74c4d2d7e5015f30d129035dcdaad918 *data/datalist
 066b79c9ae31560f2a40a59f51b37aa3 *data/gaschrom.RData
 a7c50bcc57171a0d3af5aa26776e3c2a *data/lcms.RData
@@ -31,9 +31,9 @@ a7c50bcc57171a0d3af5aa26776e3c2a *data/lcms.RData
 e4c0ff0dcac8fee5aa5802343675bfdd *demo/demo2.R
 4f0f91910f3a637cfa7b500529df3815 *demo/demo3.R
 6cc64e432cf2ac87c7723b2d12c6cda1 *inst/CITATION
-04bb530816b21d067404f8e46894cdab *inst/NEWS
+c3b2eeb09cab224dcbf6417df2a70625 *inst/NEWS
 ff45a5343eed0b5e5971c469c9abaa41 *inst/doc/stickPTW.Rnw
-b19ebebb6356563b559409022427c75d *inst/doc/stickPTW.pdf
+58461944dd3917c8861208d1e49a708e *inst/doc/stickPTW.pdf
 59a6171e2eb7e045352fd08e5422e199 *man/RMS.Rd
 9ea86cc005d753a79f0179226dbd5268 *man/asysm.Rd
 9d19f155405c0d4c64580b05312c0029 *man/baseline.corr.Rd
@@ -47,7 +47,7 @@ fecbab451481dcc40c01ce4c9f7ffab7 *man/gaschrom.Rd
 b78d5146d4ddc6c55d76d0c398d99c20 *man/mzchannel2pktab.Rd
 1288559c89cb477c8da48140f09c4e3f *man/padzeros.Rd
 ee97fdb959ca70feee161af3f71b5379 *man/plot.ptw.Rd
-a5048e5e6a66df5ab38cedbe82c699e8 *man/predict.ptw.Rd
+26af23a381d171ab331b179a9dc22b89 *man/predict.ptw.Rd
 0c858851a6a4494314e382f898df27e1 *man/ptw.Rd
 234994d0dafc00a09998e0af7b7f7982 *man/ptwgrid.Rd
 ce2e16f6d28bcee56299323b7b42fea2 *man/select.traces.Rd
@@ -60,6 +60,7 @@ bd58b10d956249520da3d155b3284232 *man/whit1.Rd
 b110019578a263e81754311fa2335e07 *src/smth.c
 c7dee5861f17cdcd3e2e57ba2d21246f *src/wcc.c
 25f7393506071733a541895e9ef5100c *src/wccStick.c
+f1a7ba2c844c8e626b83666d49f7e029 *tests/test_predict.ptw.R
 dddebf4b3668da19107f8925e20ac69e *vignettes/ptwbib.bib
 ee12efb8b031452fe963596c32960e0f *vignettes/stickPTW-002.pdf
 a15cf0384dc83016da523d402979a7f7 *vignettes/stickPTW-003.pdf
