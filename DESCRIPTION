@@ -1,7 +1,7 @@
 Package: ptw
 Type: Package
 Title: Parametric Time Warping
-Version: 1.9-13
+Version: 1.9-15
 Authors@R: c(person("Jan", "Gerretzen", role = "ctb"),
              person("Paul", "Eilers", role = "aut"),
 	     person("Hans", "Wouters", role = "ctb"),
@@ -18,11 +18,15 @@ Description: Parametric Time Warping aligns patterns, i.e. it aims to
         warpings, or one global warping for a set of samples and one
         reference. Two optimization criteria are implemented: RMS (Root
         Mean Square error) and WCC (Weighted Cross Correlation). Both
-	warping of peak profiles and of peak lists are supported.
+	warping of peak profiles and of peak lists are supported. A
+	vignette for the latter is contained in the inst/doc directory
+	of the source package - the vignette source can be found on
+	the package github site.
+URL: https://github.com/rwehrens/ptw
 License: GPL (>= 2)
 Imports: nloptr, graphics, grDevices, stats
 NeedsCompilation: yes
-Packaged: 2018-05-25 08:13:45 UTC; ron
+Packaged: 2019-11-26 11:06:01 UTC; ron
 Author: Jan Gerretzen [ctb],
   Paul Eilers [aut],
   Hans Wouters [ctb],
@@ -30,4 +34,4 @@ Author: Jan Gerretzen [ctb],
   Ron Wehrens [aut, cre]
 Maintainer: Ron Wehrens <ron.wehrens@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-05-25 22:17:57 UTC
+Date/Publication: 2019-11-26 14:20:02 UTC
