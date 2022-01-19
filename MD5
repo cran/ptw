@@ -1,5 +1,5 @@
-3f51ad113057971d08aed777e1d49b0a *DESCRIPTION
-14dfcd07409748d2e05032705355c7d0 *NAMESPACE
+8ca04405a2698ed8be52c5031e4a775d *DESCRIPTION
+769af00b6df583be799b9ac05bf945bf *NAMESPACE
 8a67dd849cdeb9fdf62139878f20519f *R/RMS.R
 ed162139509908ed5e54a890c70bc65d *R/WCC.R
 dea41ea5af98c55e847a5438b8e83eab *R/asysm.R
@@ -18,10 +18,10 @@ c7376e67c99cf6f658bf015810445812 *R/difsm.R
 aba682a006ad50e3da791a5aa28ab110 *R/select.traces.R
 b9ee06b22cc521380cb9804e226711c7 *R/summary.ptw.R
 59369da052c3167feff264c14ac95676 *R/warp.sample.R
-9be9a7c68e3d5b205aba57eaa0240e79 *R/wccStick.R
+0be6e877c46d62beb568de85004d077b *R/wccStick.R
 49152349758dfab4627d91825123ab7b *R/whit1.R
 7c1a460662d94f042e3926b68ed564ee *R/whit2.R
-e3c268314b1757e552ee5a201df5d470 *build/partial.rdb
+c300f4e05444bf6d5239ed1d349f61b0 *build/partial.rdb
 74c4d2d7e5015f30d129035dcdaad918 *data/datalist
 066b79c9ae31560f2a40a59f51b37aa3 *data/gaschrom.RData
 a7c50bcc57171a0d3af5aa26776e3c2a *data/lcms.RData
@@ -31,7 +31,7 @@ e4c0ff0dcac8fee5aa5802343675bfdd *demo/demo2.R
 4f0f91910f3a637cfa7b500529df3815 *demo/demo3.R
 6453f8084de35fbc2a52f79825f0e306 *inst/CITATION
 c3b2eeb09cab224dcbf6417df2a70625 *inst/NEWS
-4ee5e68272fc60771ef4748572a4f9e8 *inst/doc/stickPTW.pdf
+8f884e1b310fcbd97f0558613f99471e *inst/doc/stickPTW.pdf
 59a6171e2eb7e045352fd08e5422e199 *man/RMS.Rd
 9ea86cc005d753a79f0179226dbd5268 *man/asysm.Rd
 9d19f155405c0d4c64580b05312c0029 *man/baseline.corr.Rd
@@ -44,10 +44,10 @@ fecbab451481dcc40c01ce4c9f7ffab7 *man/gaschrom.Rd
 5d59adf1d2e931d7b6db09b2c458e4e1 *man/lcms.Rd
 b78d5146d4ddc6c55d76d0c398d99c20 *man/mzchannel2pktab.Rd
 1288559c89cb477c8da48140f09c4e3f *man/padzeros.Rd
-ee97fdb959ca70feee161af3f71b5379 *man/plot.ptw.Rd
+dc8fbf96b796f3b8745bab1b90f4c2cd *man/plot.ptw.Rd
 26af23a381d171ab331b179a9dc22b89 *man/predict.ptw.Rd
 82e79a618ff58c9c2e126b2c742d6f1e *man/ptw-package.Rd
-0c858851a6a4494314e382f898df27e1 *man/ptw.Rd
+4074e7803eba9815775f6389e63da7cd *man/ptw.Rd
 234994d0dafc00a09998e0af7b7f7982 *man/ptwgrid.Rd
 ce2e16f6d28bcee56299323b7b42fea2 *man/select.traces.Rd
 5a8dbfa05892ae69eeb5c9bec8f132b7 *man/warp.time.Rd

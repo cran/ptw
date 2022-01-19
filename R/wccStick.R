@@ -78,25 +78,39 @@ stwarp <- function (ref, samp, init.coef, try = FALSE, trwdth,
   if (!try) {
     ref.acors <- sapply(ref, wac.st, trwdth)
     if (nGlobal > 0) {
-      ##      require(nloptr)
-
-      ## I used to have ptw:::STWCC as eval_f - necessary? RW
-      NLOpt <- lapply(1:nGlobal,
+      ## do several runs with a global optimizer
+      
+### Following lines were removed because nloptr wasmoved to the R
+### archive - support no longer guaranteed. 
+      ## NLOpt <- lapply(1:nGlobal,
+      ##                 function(ii)
+      ##                 nloptr(x0 = a, eval_f = STWCC,
+      ##                        lb = rep(-1e+05, n), ub = rep(1e+05, n),
+      ##                        opts = list(algorithm = "NLOPT_GN_CRS2_LM",
+      ##                            maxeval = 1e+05),
+      ##                        refList = ref, sampList = samp, trwdth = trwdth, 
+      ##                        ref.acors = ref.acors))
+      ## wccs <- sapply(NLOpt, "[[", "objective")
+      ## a <- NLOpt[[which.min(wccs)]]$solution
+      GASol <- lapply(1:nGlobal,
                       function(ii)
-                      nloptr(x0 = a, eval_f = STWCC,
-                             lb = rep(-1e+05, n), ub = rep(1e+05, n),
-                             opts = list(algorithm = "NLOPT_GN_CRS2_LM",
-                                 maxeval = 1e+05),
-                             refList = ref, sampList = samp, trwdth = trwdth, 
-                             ref.acors = ref.acors))
-      wccs <- sapply(NLOpt, "[[", "objective")
-      a <- NLOpt[[which.min(wccs)]]$solution
+                        DEoptim(STWCC,
+                                lower = rep(-1e+05, n), upper = rep(1e+05, n),
+                                refList = ref, sampList = samp,
+                                trwdth = trwdth, ref.acors = ref.acors,
+                                control = list(strategy = 2, itermax = 2000,
+                                               VTR = 0, trace = FALSE,
+                                               NP = 100)))
+      wccs <- sapply(GASol, function(xxx) xxx$optim$bestval)
+        
+      a <- GASol[[which.min(wccs)]]$optim$bestmem
     }
+    
     Opt <- optim(a, STWCC, NULL, ref, samp, trwdth = trwdth,
                  ref.acors = ref.acors, ...)
-    
-    a <- c(Opt$par)
   }
+      
+  a <- c(Opt$par)
 
   if (!missing(trwdth.res)) {
     ref.acors <- sapply(ref, wac.st, trwdth.res)

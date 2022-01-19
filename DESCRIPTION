@@ -1,7 +1,7 @@
 Package: ptw
 Type: Package
 Title: Parametric Time Warping
-Version: 1.9-15
+Version: 1.9-16
 Authors@R: c(person("Jan", "Gerretzen", role = "ctb"),
              person("Paul", "Eilers", role = "aut"),
 	     person("Hans", "Wouters", role = "ctb"),
@@ -24,9 +24,9 @@ Description: Parametric Time Warping aligns patterns, i.e. it aims to
 	the package github site.
 URL: https://github.com/rwehrens/ptw
 License: GPL (>= 2)
-Imports: nloptr, graphics, grDevices, stats
+Imports: RcppDE, graphics, grDevices, stats
 NeedsCompilation: yes
-Packaged: 2019-11-26 11:06:01 UTC; ron
+Packaged: 2022-01-19 11:55:55 UTC; ron
 Author: Jan Gerretzen [ctb],
   Paul Eilers [aut],
   Hans Wouters [ctb],
@@ -34,4 +34,4 @@ Author: Jan Gerretzen [ctb],
   Ron Wehrens [aut, cre]
 Maintainer: Ron Wehrens <ron.wehrens@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-11-26 14:20:02 UTC
+Date/Publication: 2022-01-19 13:42:42 UTC
