@@ -29,6 +29,7 @@ stptw(ref, samp, init.coef = c(0, 1, 0),
       trwdth = 20, trwdth.res = trwdth, 
       nGlobal = ifelse(length(init.coef) > 3, 5, 0),
       ...)
+\method{coef}{ptw}(object, \dots)
 \method{summary}{ptw}(object, \dots)
 \method{print}{ptw}(x, \dots)
 }
@@ -84,7 +85,7 @@ stptw(ref, samp, init.coef = c(0, 1, 0),
     coefficients, a more powerful optimisation method is used
     (\code{nloptr}: in such cases \code{nGlobal} indicates the number of
     times this method is employed.}
-  \item{x, object}{an object of class "ptw"}
+  \item{object, x}{an object of class "ptw"}
 }
 \details{Function \code{ptw} and friends is meant for profile data,
   where intensities have been recorded at regular time points; function

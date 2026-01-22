@@ -19,13 +19,13 @@ print.ptw <- function(x, ...)
 {
   nsamp <- nrow(x$sample)
   nref <- nrow(x$reference)
-  cat("PTW object:", x$warp.type,
+  cat("PTW x:", x$warp.type,
       ifelse((x$warp.type == "individual" && nsamp > 1),
              "alignments of", "alignment of"), nsamp,
       ifelse(nsamp > 1, "samples on", "sample on"),
       nref, ifelse(nref > 1, "references.\n", "reference.\n"))
 }
 
-coef.ptw <- function(x, ...) {
-  x$warp.coef
+coef.ptw <- function(object, ...) {
+  object$warp.coef
 }
